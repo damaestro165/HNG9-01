@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  background: #eaecf0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 8px;
+  &:hover {
+    background: #eaecf044;
+  }
+}

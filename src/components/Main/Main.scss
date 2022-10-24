@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 1152px;
+    margin-bottom: 24px;
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 26px;
+  }
+}
