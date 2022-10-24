@@ -6,7 +6,7 @@ import GitHubIcon from "../../assets/github.png";
 
 function Main() {
   return (
-    <div className="main">
+    <main>
       <section className="buttons-container">
         <Button link="" text="Twitter Link" id="" />
         <Button
@@ -35,7 +35,7 @@ function Main() {
         <img src={SlackIcon} alt="slack-Icon" />
         <img src={GitHubIcon} alt="slack-Icon" />
       </section>
-    </div>
+    </main>
   );
 }
 
