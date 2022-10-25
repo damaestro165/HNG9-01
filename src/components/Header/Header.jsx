@@ -1,11 +1,15 @@
 import React from "react";
 import "./Header.scss";
 import shareDesktop from "../../assets/shareDesktop.png";
+import mobiles from "../../assets/mobileshare.png";
 import ProfileImg from "../../assets/images/profileImage.jpg";
 
 function Header() {
   return (
     <header className="profile-section">
+      <div className="mobileShare">
+        <img src={mobiles} alt="mobiles" />
+      </div>
       <div className="shareIcon">
         <img src={shareDesktop} alt="shareIcon" />
       </div>

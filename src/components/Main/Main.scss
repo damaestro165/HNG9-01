@@ -1,20 +1,35 @@
 main {
   display: flex;
   flex-direction: column;
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
+  align-items: center;
 
   .buttons-container {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    width: 1152px;
-    margin-bottom: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 72rem;
+    margin-bottom: 1.5rem;
   }
   .socials {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 26px;
+    gap: 1.625rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  main {
+    margin-bottom: 2rem;
+    .buttons-container {
+      width: 90%;
+    }
+  }
+  .socials {
+    width: 90%;
   }
 }

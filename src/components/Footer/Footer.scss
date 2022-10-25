@@ -2,7 +2,7 @@ footer {
   width: 100vw;
   display: flex;
   align-items: center;
-  padding: 48px 0px;
+  padding: 3rem 0rem;
   justify-content: center;
 
   .container {
@@ -10,10 +10,22 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 32px 0px 0px;
-    width: 1200px;
-    gap: 32px;
-    height: 64px;
+    padding: 2rem 0rem 0rem;
+    width: 74rem;
+    gap: 2rem;
+    height: 4rem;
     border-top: 1px solid #eaecf0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  footer {
+    .container {
+      font-size: xx-small;
+      width: 90%;
+      img {
+        width: 4rem;
+      }
+    }
   }
 }

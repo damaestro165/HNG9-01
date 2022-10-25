@@ -4,13 +4,14 @@
   color: #000;
   justify-content: center;
   align-items: center;
-  padding: 24px 32px;
+  padding: 1.5rem 2rem;
   background: #eaecf0;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
-  border-radius: 8px;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  border-radius: 0.5rem;
+  width: 90%;
   &:hover {
     background: #eaecf044;
   }

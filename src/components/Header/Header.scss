@@ -3,31 +3,49 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  margin-top: 20px;
-  margin-bottom: 56px;
+  margin-top: 1.25rem;
+  margin-bottom: 3rem;
+  .mobileShare {
+    display: none;
+  }
 
   .shareIcon {
     align-self: flex-end;
-    margin-right: 352px;
-    width: 40px;
-    height: 40px;
+    margin-right: 22rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   #profile_img {
-    width: 88px;
-    height: 88px;
-    border-radius: 275px;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 17.187rem;
     object-fit: cover;
   }
   .username {
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     text-align: center;
     color: #101828;
 
     #slack {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-section {
+    margin-bottom: 2rem;
+    .mobileShare {
+      align-self: flex-end;
+      margin-right: 2rem;
+      display: block;
+    }
+
+    .shareIcon {
       display: none;
     }
   }
