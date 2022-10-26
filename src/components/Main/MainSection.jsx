@@ -36,8 +36,12 @@ function Main() {
         />
       </section>
       <section className="socials">
-        <img src={SlackIcon} alt="slack-Icon" />
-        <img src={GitHubIcon} alt="slack-Icon" />
+        <a href="">
+          <img src={SlackIcon} alt="slack-Icon" />
+        </a>
+        <a href="https://github.com/damaestro165/HNG9-01">
+          <img src={GitHubIcon} alt="slack-Icon" />
+        </a>
       </section>
     </main>
   );

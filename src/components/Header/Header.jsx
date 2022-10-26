@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.scss";
-
 import mobiles from "../../assets/mobileshare.png";
 import ProfileImg from "../../assets/images/profileImage.jpg";
 import Camera from "../../assets/camera.png";
