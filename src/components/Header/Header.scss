@@ -14,14 +14,79 @@
     margin-right: 22rem;
     width: 2.5rem;
     height: 2.5rem;
-  }
+    position: relative;
 
-  #profile_img {
+    .iconsvg:hover {
+      fill: #f2f4f7;
+      stroke: #667085;
+    }
+
+    .toolTip {
+      visibility: hidden;
+      position: absolute;
+      margin-top: -0.5rem;
+      margin-left: -7.5rem;
+      background-color: #101828;
+      color: #fff;
+      text-align: center;
+      z-index: 1;
+      width: 85px;
+      padding: 8px 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: small;
+      height: 34px;
+      border-radius: 8px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent black;
+      }
+    }
+  }
+  .shareIcon:hover .toolTip {
+    visibility: visible;
+  }
+  .image-container {
+    position: relative;
     width: 5.5rem;
     height: 5.5rem;
     border-radius: 17.187rem;
-    object-fit: cover;
+    z-index: 5;
+
+    #profile_img {
+      width: 5.5rem;
+      height: 5.5rem;
+      border-radius: 17.187rem;
+      object-fit: cover;
+    }
+    .camera {
+      display: none;
+    }
+    #profile_img:hover + .camera {
+      display: block;
+      position: absolute;
+      width: 5.5rem;
+      height: 5.5rem;
+      border-radius: 17.187rem;
+      bottom: 0;
+      background-color: rgb(21, 23, 24);
+      opacity: 0.6;
+      img {
+        display: absolute;
+        margin-top: 3.6rem;
+        margin-left: 2rem;
+      }
+    }
   }
+
   .username {
     font-style: normal;
     font-weight: 700;

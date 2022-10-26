@@ -8,7 +8,11 @@ function Main() {
   return (
     <main>
       <section className="buttons-container">
-        <Button link="" text="Twitter Link" id="" />
+        <Button
+          link="https://twitter.com/yomi_dev"
+          text="Twitter Link"
+          id="btn_twitter"
+        />
         <Button
           link="https://training.zuri.team/"
           text="Zuri Team"
@@ -16,7 +20,7 @@ function Main() {
         />
         <Button link="http://books.zuri.team/" text="Zuri Books" id="‘books" />
         <Button
-          link="https://books.zuri.team/python-for-beginners?ref_id=<yourslackname>"
+          link="https://books.zuri.team/python-for-beginners?ref_id=yomi_dev"
           text="Python Books"
           id="book__python"
         />
