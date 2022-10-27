@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.scss";
 import mobiles from "../../assets/mobileshare.png";
-import ProfileImg from "../../assets/images/profileImage.jpg";
+import ProfileImg from "../../assets/images/profilepics.png";
 import Camera from "../../assets/camera.png";
 
 function Header() {
@@ -48,7 +48,7 @@ function Header() {
         </div>
       </div>
       <div className="username">
-        <p id="twitter">@yomi_dev</p>
+        <p id="twitter">Adeniyi Abayomi</p>
         <p id="slack">yomi_dev</p>
       </div>
     </header>

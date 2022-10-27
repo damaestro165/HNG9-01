@@ -1,5 +1,5 @@
 footer {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   align-items: center;
   padding: 3rem 0rem;
@@ -15,6 +15,9 @@ footer {
     gap: 2rem;
     height: 4rem;
     border-top: 1px solid #eaecf0;
+  }
+  p {
+    color: #667085;
   }
 }
 /* Medium devices (landscape tablets, 768px and down) */
