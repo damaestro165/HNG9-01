@@ -28,7 +28,7 @@ function Main() {
           href="http://books.zuri.team/"
           target="_blank"
           className="btn"
-          id="‘books"
+          id="books"
         >
           Zuri Books
         </a>
