@@ -12,7 +12,7 @@ function Main() {
           href="https://twitter.com/yomi_dev"
           target="_blank"
           className="btn"
-          id="btn__twitter"
+          id="twitter"
         >
           Twitter Link
         </a>
