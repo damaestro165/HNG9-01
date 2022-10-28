@@ -48,8 +48,8 @@ function Header() {
         </div>
       </div>
       <div className='username'>
-        <p id='twitter'>Adeniyi Abayomi</p>
-        <p id='slack'>yomi_dev</p>
+        <h2 id='twitter'>Adeniyi Abayomi</h2>
+        <h2 id='slack'>yomi_dev</h2>
       </div>
     </header>
   );
