@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+
 import "./Main.scss";
 import SlackIcon from "../../assets/slack.png";
 import GitHubIcon from "../../assets/github.png";
@@ -7,33 +7,56 @@ import GitHubIcon from "../../assets/github.png";
 function Main() {
   return (
     <main>
-      <section className="buttons-container">
-        <Button
-          link="https://twitter.com/yomi_dev"
-          text="Twitter Link"
-          id="btn_twitter"
-        />
-        <Button
-          link="https://training.zuri.team/"
-          text="Zuri Team"
+      <section className="link-container">
+        <a
+          href="https://twitter.com/yomi_dev"
+          target="_blank"
+          className="btn"
+          id="btn__twitter"
+        >
+          Twitter Link
+        </a>
+        <a
+          href="https://training.zuri.team/"
           id="btn__zuri"
-        />
-        <Button link="http://books.zuri.team/" text="Zuri Books" id="‘books" />
-        <Button
-          link="https://books.zuri.team/python-for-beginners?ref_id=yomi_dev"
-          text="Python Books"
+          target="_blank"
+          className="btn"
+        >
+          Zuri Team
+        </a>
+        <a
+          href="http://books.zuri.team/"
+          target="_blank"
+          className="btn"
+          id="‘books"
+        >
+          Zuri Books
+        </a>
+        <a
+          href="https://books.zuri.team/python-for-beginners?ref_id=yomi_dev"
+          target="_blank"
+          className="btn"
           id="book__python"
-        />
-        <Button
-          link="https://background.zuri.team"
-          text="Background Check for Coders"
+        >
+          Python Books
+        </a>
+        <a
+          href="https://background.zuri.team"
+          target="_blank"
+          className="btn"
           id="pitch"
-        />
-        <Button
-          link="https://books.zuri.team/design-rules"
-          text="Design Books"
+        >
+          Background Check for Coders
+        </a>
+
+        <a
+          href="https://books.zuri.team/design-rules"
+          target="_blank"
+          className="btn"
           id="book__design"
-        />
+        >
+          Design Books
+        </a>
       </section>
       <section className="socials">
         <a href="">

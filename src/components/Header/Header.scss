@@ -61,7 +61,7 @@
     border-radius: 17.187rem;
     z-index: 5;
 
-    #profile_img {
+    #profile__img {
       width: 5.5rem;
       height: 5.5rem;
       border-radius: 17.187rem;
@@ -70,7 +70,7 @@
     .camera {
       display: none;
     }
-    #profile_img:hover + .camera {
+    #profile__img:hover + .camera {
       display: block;
       position: absolute;
       width: 5.5rem;
