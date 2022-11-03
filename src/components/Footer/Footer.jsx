@@ -6,7 +6,7 @@ import './Footer.scss';
 function Footer() {
   return (
     <footer>
-      <div className='container'>
+      <div className="container">
         <img src={Zuri} />
         <p>HNG Internship 9 Frontend Task</p>
         <img src={I4G} />
