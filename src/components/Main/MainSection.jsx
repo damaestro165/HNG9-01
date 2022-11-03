@@ -7,66 +7,66 @@ import GitHubIcon from '../../assets/github.png';
 function Main() {
   return (
     <main>
-      <section className="link-container">
+      <section className='link-container'>
         <a
-          href="https://twitter.com/yomi_dev"
-          target="_blank"
-          className="btn"
-          id="twitter"
+          href='https://twitter.com/yomi_dev'
+          target='_blank'
+          className='btn'
+          id='twitter'
         >
           Twitter Link
         </a>
         <a
-          href="https://training.zuri.team/"
-          id="btn__zuri"
-          target="_blank"
-          className="btn"
+          href='https://training.zuri.team/'
+          id='btn__zuri'
+          target='_blank'
+          className='btn'
         >
           Zuri Team
         </a>
         <a
-          href="http://books.zuri.team/"
-          target="_blank"
-          className="btn"
-          id="books"
+          href='http://books.zuri.team/'
+          target='_blank'
+          className='btn'
+          id='books'
         >
           Zuri Books
         </a>
         <a
-          href="https://books.zuri.team/python-for-beginners?ref_id=yomi_dev"
-          target="_blank"
-          className="btn"
-          id="book__python"
+          href='https://books.zuri.team/python-for-beginners?ref_id=yomi_dev'
+          target='_blank'
+          className='btn'
+          id='book__python'
         >
           Python Books
         </a>
         <a
-          href="https://background.zuri.team"
-          target="_blank"
-          className="btn"
-          id="pitch"
+          href='https://background.zuri.team'
+          target='_blank'
+          className='btn'
+          id='pitch'
         >
           Background Check for Coders
         </a>
 
         <a
-          href="https://books.zuri.team/design-rules"
-          target="_blank"
-          className="btn"
-          id="book__design"
+          href='https://books.zuri.team/design-rules'
+          target='_blank'
+          className='btn'
+          id='book__design'
         >
           Design Books
         </a>
-        <a href="/contact" className="btn" id="contact">
+        <a href='/contact' className='btn' id='contact'>
           Contact Me
         </a>
       </section>
-      <section className="socials">
-        <a href="">
-          <img src={SlackIcon} alt="slack-Icon" />
+      <section className='socials'>
+        <a href=''>
+          <img src={SlackIcon} alt='slack-Icon' />
         </a>
-        <a href="https://github.com/damaestro165/HNG9-01">
-          <img src={GitHubIcon} alt="slack-Icon" />
+        <a href='https://github.com/damaestro165/HNG9-01'>
+          <img src={GitHubIcon} alt='slack-Icon' />
         </a>
       </section>
     </main>

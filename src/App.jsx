@@ -6,10 +6,10 @@ import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <div className="app">
+    <div className='app'>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/contact" element={<Contact />} />
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/contact' element={<Contact />} />
       </Routes>
     </div>
   );
