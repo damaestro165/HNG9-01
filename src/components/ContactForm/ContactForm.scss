@@ -1,5 +1,4 @@
 .contact-form {
-  color: #475467;
   padding: 5rem;
   display: flex;
   flex-direction: column;
@@ -10,15 +9,10 @@
     width: 95%;
     .text-container {
       h2 {
-        font-style: normal;
-        font-weight: 600;
         font-size: 36px;
         margin-bottom: 1rem;
-        color: #101828;
       }
       p {
-        font-style: normal;
-        font-weight: 400;
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 2rem;
@@ -46,6 +40,10 @@
           border: 1px solid #d0d5dd;
           box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
           border-radius: 8px;
+          &:focus {
+            outline: none;
+            border: 2px solid #84caff;
+          }
         }
       }
       .column {
@@ -62,6 +60,10 @@
           border: 1px solid #d0d5dd;
           box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
           border-radius: 8px;
+          &:focus {
+            outline: none;
+            border: 2px solid #84caff;
+          }
         }
       }
       .textarea-container {
@@ -69,13 +71,14 @@
           padding: 12px 14px;
           width: 720px;
           height: 132px;
-
           background: #ffffff;
-
           border: 1px solid #d0d5dd;
-
           box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
           border-radius: 8px;
+          &:focus {
+            outline: none;
+            border: 2px solid #84caff;
+          }
         }
       }
       .checkbox-container {
@@ -84,6 +87,10 @@
         input {
           width: 20px;
           height: 20px;
+          &:hover {
+            outline: 2px solid #84caff;
+            border: none;
+          }
         }
       }
       button {
@@ -93,8 +100,18 @@
         background: #1570ef;
         border: 1px solid #1570ef;
         border-radius: 8px;
+        &:hover {
+          outline: 2px solid #84caff;
+        }
+        &:disabled {
+          background: #b2ddff;
+        }
       }
     }
+  }
+  .error {
+    color: red;
+    font-size: small;
   }
 }
 
@@ -102,7 +119,7 @@
 @media only screen and (max-width: 1200px) {
   .contact-form {
     padding: 0.5rem;
-    margin: 10px;
+    margin: 4rem 0.5rem 0.5rem 0.5rem;
     form {
       display: flex;
       align-self: center;
