@@ -12,28 +12,28 @@ const ContactForm = () => {
         <div className='input-container'>
           <div className='name-container'>
             <div className='column'>
-              <label for='first_name'>First name</label>
+              <label htmlfor='first_name'>First name</label>
               <input placeholder='Enter your first name ' id='first_name' />
             </div>
             <div className='column'>
-              <label for='last_name'>Last name</label>
+              <label htmlfor='last_name'>Last name</label>
               <input placeholder='Enter your last name ' id='last_name' />
             </div>
           </div>
           <div className='email-container column'>
-            <label for='email'>Email</label>
+            <label htmlfor='email'>Email</label>
             <input placeholder='yourname@email.com' id='email' />
           </div>
           <div className='textarea-container column'>
-            <label for='message'>Message</label>
+            <label htmlfor='message'>Message</label>
             <textarea
               placeholder="Send me a message and I'll reply you as soon as possible..."
               id='message'
             ></textarea>
           </div>
           <div className='checkbox-container'>
-            <input type='checkbox' />
-            <label>
+            <input type='checkbox' id='checkbox' />
+            <label htmlFor='checkbox'>
               You agree to providing your data to name who may contact you.
             </label>
           </div>
