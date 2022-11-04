@@ -58,9 +58,9 @@ function Main() {
         >
           Design Books
         </a>
-        <a href='/contact' className='btn' id='contact'>
+        <Link to='/contact' className='btn' id='contact'>
           Contact Me
-        </a>
+        </Link>
       </section>
       <section className='socials'>
         <a href=''>
