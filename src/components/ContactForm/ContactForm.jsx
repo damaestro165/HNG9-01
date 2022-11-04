@@ -22,8 +22,8 @@ const ContactForm = () => {
       terms: Yup.array().required('Terms of service must be checked'),
     }),
     onSubmit: (values, { resetForm }) => {
-      console.log('form submitted');
-      console.log(values);
+      alert('form submitted');
+
       resetForm();
     },
   });
@@ -106,13 +106,14 @@ const ContactForm = () => {
           <div className='checkbox-container'>
             <input
               type='checkbox'
-              id='terms'
-              value='checked'
+              name='terms'
+              value={'checked'}
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
             />
             <label htmlFor='terms'>
-              You agree to providing your data to name who may contact you.
+              You agree to providing your Adeniyi Abayomi data to name who may
+              contact you.
             </label>
           </div>
           <button id='btn__submit' type='submit' disabled={!formik.isValid}>
