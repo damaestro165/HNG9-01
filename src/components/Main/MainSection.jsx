@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './Main.scss';
 import SlackIcon from '../../assets/slack.png';
@@ -65,9 +66,9 @@ function Main() {
         <a href=''>
           <img src={SlackIcon} alt='slack-Icon' />
         </a>
-        <a href='https://github.com/damaestro165/HNG9-01'>
+        <Link href='https://github.com/damaestro165/HNG9-01'>
           <img src={GitHubIcon} alt='slack-Icon' />
-        </a>
+        </Link>
       </section>
     </main>
   );

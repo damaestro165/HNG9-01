@@ -5,7 +5,10 @@ import ContactForm from '../components/ContactForm/ContactForm';
 const Contact = () => {
   return (
     <div>
-      <ContactForm />
+      <div>
+        <ContactForm />
+      </div>
+
       <Footer />
     </div>
   );
